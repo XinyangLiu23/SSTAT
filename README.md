@@ -7,7 +7,7 @@ The PyTorch codes are for "[**From Spatial-Guidance to Spectral-Correlation: A T
 The framework consists of a multi-stage spatial-wise encoder, a bottleneck and a spectral-wise decoder. In each encoder stage, overlapped patch downsampling is applied to generate multi-scale feature maps, followed by the dynamic token evaluation module (DTEM) and Spatial-SAB to model spatial data distribution with dynamic token weights. The spatial-prior guidance module and Spectral-SAB in the decoder are further illustrated, which are designed to model inter-band correlations.
 
 <p align="center">
-  <img src="assets/workflow.png" alt="Overview of the SSTAT pipeline" width="800">
+  <img src="assets/workflow.png" alt="Overview of the SSTAT pipeline" width="700">
 </p>
 
 ## Environment
