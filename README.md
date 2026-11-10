@@ -78,7 +78,7 @@ If you have any questions or suggestions, please feel free to contact me.
 Email: liuxinyang_sara@buaa.edu.cn
 
 ## Citation
-If you find this paper helpful in your research, please consider citing it. The formal citation format will be updated after the paper is officially published
+If you find this paper helpful in your research, please consider citing it. The formal citation format will be updated after the paper is officially published.
 ```
 @ARTICLE{11783074,
   author={Liu, Xinyang and Liu, Liqin and Zou, Zhengxia and Shi, Zhenwei},
