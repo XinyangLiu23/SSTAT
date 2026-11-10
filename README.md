@@ -4,7 +4,7 @@ The PyTorch codes are for "**From Spatial-Guidance to Spectral-Correlation: A To
 
 ## Pipeline
 
-![Overview of the SSTAT pipeline](assets/workflow.png)
+<img src="assets/workflow.png" alt="Overview of the SSTAT pipeline" width="650">
 
 
 ## Environment
