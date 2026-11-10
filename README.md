@@ -1,11 +1,14 @@
 # From Spatial-Guidance to Spectral-Correlation: A Token-Aware Transformer for Hyperspectral Remote Sensing Image Generation
 
-The PyTorch codes are for "**From Spatial-Guidance to Spectral-Correlation: A Token-Aware Transformer for Hyperspectral Remote Sensing Image Generation**", which has been accepted by ***IEEE Transactions on Geoscience and Remote Sensing (TGRS)***, in 2026
+The PyTorch codes are for "[**From Spatial-Guidance to Spectral-Correlation: A Token-Aware Transformer for Hyperspectral Remote Sensing Image Generation**](https://doi.org/10.1109/TGRS.2026.3751407)", which has been accepted by ***IEEE Transactions on Geoscience and Remote Sensing (TGRS)***, in 2026
 
 ## Pipeline
 
-<img src="assets/workflow.png" alt="Overview of the SSTAT pipeline" width="650">
+The framework consists of a multi-stage spatial-wise encoder, a bottleneck and a spectral-wise decoder. In each encoder stage, overlapped patch downsampling is applied to generate multi-scale feature maps, followed by the dynamic token evaluation module (DTEM) and Spatial-SAB to model spatial data distribution with dynamic token weights. The spatial-prior guidance module and Spectral-SAB in the decoder are further illustrated, which are designed to model inter-band correlations.
 
+<p align="center">
+  <img src="assets/workflow.png" alt="Overview of the SSTAT pipeline" width="700">
+</p>
 
 ## Environment
 
@@ -68,9 +71,6 @@ python test.py \
 - Generated results are saved as GeoTIFFs in `./results/test/` with the same filenames as the inputs.
 - If you would like to evaluate performance on the test set, please compute the metrics separately.
 
-## Acknowledgments
-
-The structure of this codes mainly referred to R2HGAN and MSFN. We thank the authors for making these excellent works publicly available.
 
 ## Contact
 If you have any questions or suggestions, please feel free to contact me.
@@ -78,7 +78,7 @@ If you have any questions or suggestions, please feel free to contact me.
 Email: liuxinyang_sara@buaa.edu.cn
 
 ## Citation
-If you find this paper helpful in your research, please consider citing it. The formal citation format will be updated after the paper is officially published.
+If you find this paper helpful in your research, please consider citing it.
 ```
 @ARTICLE{11783074,
   author={Liu, Xinyang and Liu, Liqin and Zou, Zhengxia and Shi, Zhenwei},
@@ -91,3 +91,6 @@ If you find this paper helpful in your research, please consider citing it. The 
   doi={10.1109/TGRS.2026.3751407}}
 
 ```
+## Acknowledgments
+
+The structure of this codes mainly referred to [R2HGAN](https://github.com/liuliqin/R2HGAN-generate-HSI-from-RGB) and [MSFN](https://github.com/Matsuri247/MSFN-for-Spectral-Super-Resolution). We thank the authors for making these excellent works publicly available.
