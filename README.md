@@ -1,4 +1,4 @@
-# SSTAT
+# From Spatial-Guidance to Spectral-Correlation: A Token-Aware Transformer for Hyperspectral Remote Sensing Image Generation
 
 The PyTorch codes are for "**From Spatial-Guidance to Spectral-Correlation: A Token-Aware Transformer for Hyperspectral Remote Sensing Image Generation**", which has been accepted by ***IEEE Transactions on Geoscience and Remote Sensing (TGRS)***, in 2026
 
